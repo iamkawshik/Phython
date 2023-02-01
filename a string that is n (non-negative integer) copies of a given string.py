@@ -3,4 +3,6 @@ def s(t, n):
     for i in range (n):
         result = result + t    
     return result
-print(s('abe', 2))
+t = input()
+n = int(input())
+print(str(s(t, n)))
